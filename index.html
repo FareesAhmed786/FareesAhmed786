@@ -1,12 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farees Ahmed</title>
+    <meta charset="utf-8">
+    <title>Farees Ahmed's Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <!-- <link href="img/favicon.ico" rel="icon"> -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <!-- <link rel="icon" type="image/png" href="favicon.png" /> -->
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
-    <h1>This is my portfolio.</h1>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-7"><span class="text-primary">Farees</span>Ahmed</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Quality</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
+            </div>
+            <a href="#contact" class="btn btn-outline-primary d-none d-lg-block">Contact</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">I'm</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-4" style="-webkit-text-stroke: 2px #ffffff;">
+                        Farees Ahmed Shaikh</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Web Developer, Prompt Engineer, App Developer, AI/ML, SEO, Content Creator</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="" class="btn btn-outline-light">Download CV</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-img" src="img/profile.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <h3 class="mb-4">Web Developer</h3>
+                <p style="text-align: justify;">
+                    As a recent computer science engineering graduate, I bring technical skills and industry knowledge
+                    to a dynamic organization. With freelancing experience in the medical field, I offer a unique
+                    combination of skills. I have developed pharmacy and dental clinic websites using React, Sanity, and
+                    PostgreSQL. These projects improved online presence, delivery service, and patient data management.
+                    <br><br>
+                    My collaboration with medical professionals has deepened my understanding of healthcare and passion
+                    for using technology to enhance patient outcomes. Proficient in React, Flutter, Python, and C++, I
+                    have led teams on translation and attendance system projects, gaining practical experience and
+                    leadership skills. I am eager to apply my expertise, work ethic, attention to detail, and passion
+                    for innovation to contribute to a team.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Education</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Bachelor of Engineering In C.S.E</h5>
+                            <p class="mb-2"><strong>SMVITM, Bantakal, Udupi</strong> | <small>2018 - 2022</small></p>
+                            <p>The Shri Sode Vadiraja Mutt Education Trust, led by Shree Shree Vishwa Vallabha Theertha Swamiji, is a registered charitable trust under the Indian Trusts Act 1882. Established in 2009, its primary goal is to promote education and research in rural areas.</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">HSC In PCMCs</h5>
+                            <p class="mb-2"><strong>MVM, Mulund ,Mumbai</strong> | <small>2016 - 2018</small></p>
+                            <p>
+                                MULUND VIDYAMANDIR & JR. COLLEGE in Mumbai's Mulund (W) was established in 1957 and is managed by the Pvt. Aided. It offers education from grades 5 to 12, follows a co-educational system with Marathi as the medium of instruction.</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">CBSE</h5>
+                            <p class="mb-2"><strong>DMWA, Airoli, Navi Mumbai</strong> | <small>2015 - 2016</small></p>
+                            <p>Datta Meghe World Academy, managed by Smt. Radhikabai Meghe Memorial Shikshan Sanstha, is a prestigious school in Airoli. Affiliated up to Class 12, the medium of instruction is English. Led by Shri Dattaji Meghe, our visionary educators have established us as the best school in the area.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Expericence</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Dental Clinic Management System</h5>
+                            <p class="mb-2"><strong>Best Care Dental Clinic (Freelance)</strong></p>
+                            <p>Dental Clinic Management System is made using React, Express, PostgreSQL, and DigitalOcean. The aim of the project is to create a management system which can store data about the patients, doctors and the appointment and treatments.</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Pharmacy Ecommerce Web App</h5>
+                            <p class="mb-2"><strong>Best Care Medical (Freelance)</strong></small></p>
+                            <p>An Ecommerce Web app is made using flutter and firebase. The aim of the project was to connect the offline store to the online market.</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Tulu To English Virtual Keyboard</h5>
+                            <p class="mb-2"><strong>SMVITM (Final Year Project)</strong></p>
+                            <p>Tulu, a language spoken in South Canara, Karnataka, has a distinctive script. Though there are written works in Tulu, there is limited technology supporting Tulu characters electronically. A proposed GUI application with an onscreen keyboard aims to aid Tulu translation using Natural Language Processing and Rule-Based Machine Translation, ensuring ease, precision, and reliability.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
+
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <img width="30" height="30" src="https://img.icons8.com/color/480/html-5--v1.png" alt="html-5--v1"/>
+                            <h6 class="font-weight-bold">HTML</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <img width="30" height="30" src="https://img.icons8.com/fluency/240/css3.png" alt="css3"/>
+                            <h6 class="font-weight-bold">CSS</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <img width="30" height="30" src="https://img.icons8.com/color/480/javascript--v1.png" alt="javascript--v1"/>
+                            <h6 class="font-weight-bold">JavaScript</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <img width="30" height="30" src="https://img.icons8.com/color/480/react-native.png" alt="react-native"/>
+                            <h6 class="font-weight-bold">React</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <img width="30" height="30" src="https://img.icons8.com/color/480/express-js.png" alt="express-js"/>
+                            <h6 class="font-weight-bold">Express</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <img width="30" height="30" src="https://img.icons8.com/color/480/flutter.png" alt="flutter"/>
+                            <h6 class="font-weight-bold">Flutter</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <img width="30" height="30" src="https://img.icons8.com/color/480/python--v1.png" alt="python--v1"/>
+                            <h6 class="font-weight-bold">Python</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/480/github.png" alt="github"/>
+                            <h6 class="font-weight-bold">Github</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid pt-5" id="service">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Development</h4>
+                    </div>
+                    <p style="text-align: justify;">
+                        Web development involves creating and maintaining websites or web applications. It includes tasks like designing, coding, and implementing functionality using various technologies. Web development enables businesses and individuals to establish an online presence and interact with users on the internet.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Prompt Engineering</h4>
+                    </div>
+                    <p style="text-align: justify;">Prompt Engineering refers to a concept or approach in the field of engineering that emphasizes efficiency, quick response, and timely execution of projects. It focuses on delivering solutions promptly while maintaining high-quality standards and meeting client requirements. Prompt Engineering aims to minimize delays and maximize productivity throughout the engineering process.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">App Development</h4>
+                    </div>
+                    <p style="text-align: justify;">App development, short for application development, involves creating software applications for mobile devices or computers. It encompasses the entire process of designing, coding, testing, and deploying applications. App development typically involves programming languages, frameworks, and tools specific to the target platform, such as iOS or Android.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-solid fa-robot bg-primary text-white mr-3 service-icon"></i>
+                        <h4 class="font-weight-bold m-0">AI & ML</h4>
+                    </div>
+                    <p style="text-align: justify;">AI (Artificial Intelligence) is a field of computer science that focuses on creating intelligent systems capable of performing tasks that typically require human intelligence. ML (Machine Learning) is a subset of AI that uses algorithms and statistical models to enable machines to learn from data and improve their performance over time without being explicitly programmed.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">SEO</h4>
+                    </div>
+                    <p style="text-align: justify;">SEO (Search Engine Optimization) is a practice of optimizing a website or online content to improve its visibility and ranking in search engine results pages. It involves various techniques such as keyword research, on-page optimization, link building, and technical optimizations to attract organic (non-paid) traffic and increase the chances of being found by relevant users through search engines.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Content Creating</h4>
+                    </div>
+                    <p style="text-align: justify;">Content creation is the process of developing and producing various forms of content, such as articles, blog posts, videos, podcasts, and social media posts. It involves researching, writing, designing, and editing content to engage and inform the target audience. Effective content creation aims to provide value, solve problems, and build relationships with the intended viewers or readers.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5" id="contact">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="https://github.com/FareesAhmed786" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.facebook.com/profile.php?id=100009711938578"target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/fareesahmed/"target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.instagram.com/farees_sk/"target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="m-0">Connect with me on Social Media.</p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
+
 </html>
