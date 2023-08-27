@@ -7,6 +7,8 @@
 
 - How to reach me **fareesahmed.engg@gmail.com**
 
-- LinkedIn - "https://linkedin.com/in/fareesahmed/"
+- LinkedIn - https://linkedin.com/in/fareesahmed/
 
+- Facebook - https://www.facebook.com/profile.php?id=100009711938578
 
+- Instagram - https://www.instagram.com/farees.developer/
