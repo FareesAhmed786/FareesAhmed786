@@ -10,6 +10,6 @@
 
 - LinkedIn - https://linkedin.com/in/fareesahmed/
 
-- Facebook - https://www.facebook.com/profile.php?id=100009711938578
+- Facebook - https://www.facebook.com/farees.developer/
 
 - Instagram - https://www.instagram.com/farees.developer/
