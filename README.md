@@ -3,12 +3,10 @@
 <h3 align="center">B.E. Computer Science Engineer | Seeking Entry Level Opportunities in the IT field | Data Analyst, Full Stack Software Developer</h3>
 <img align="right" alt="Coding" width="300" src="https://cdn.dribbble.com/users/926537/screenshots/4502924/media/18181eb39eec9784db256e246954adba.gif">
 
-- 💬 Ask me about **React, Flutter, Python, Express, Postgres, MySQl, MongoDb, DigitalOcean**
+- Ask me about **React, Flutter, Python, Express, Postgres, MySQl, MongoDb, DigitalOcean**
 
-- 📫 How to reach me **fareesahmed.engg@gmail.com**
+- How to reach me **fareesahmed.engg@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/fareesahmed/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/farees-ahmed-shaikh/" height="30" width="40" /></a>
-</p>
+- LinkedIn - "https://linkedin.com/in/fareesahmed/"
+
 
